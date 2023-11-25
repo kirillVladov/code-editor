@@ -1,4 +1,3 @@
-export interface IDropDownModel {
-    name: string;
-    value: string | number | object;
-}
+import {IBaseModel} from "./index.ts";
+
+export interface IDropDownModel extends IBaseModel{}
